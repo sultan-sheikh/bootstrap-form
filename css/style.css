@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.form-section{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#14bac9+1,60c4d6+100 */
+	background: rgb(20,186,201); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(20,186,201,1) 1%, rgba(96,196,214,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(20,186,201,1) 1%,rgba(96,196,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(96, 145, 255) 1%,rgb(0, 146, 126) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14bac9', endColorstr='#60c4d6',GradientType=1 ); /* IE6-9 */
+}
+
+.img-fluid{
+	    width: 300px !important;
+}
+form{
+	padding:40px 0 !important;
+}
+label{
+	font-size:20px;
+	font-weight: bold;
+}
+
+.form-control{
+	padding: 22px 15px;
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom:10px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color:none;
+    outline: 0;
+    box-shadow:none;
+}
+
+.btn{
+	background:dodgerblue !important;
+	color:black;
+	padding:10px 20px;
+	border:none;
+	font-size:18px;
+	border:1px solid white;
+}
+
+.btn:hover{
+	background:white !important;
+	color:black;
+	padding:10px 20px;
+	border:1px solid dodgerblue;
+}
