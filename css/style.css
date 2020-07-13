@@ -42,17 +42,16 @@ label{
 }
 
 .btn{
-	background:dodgerblue !important;
+	background:white !important;
 	color:black;
 	padding:10px 20px;
 	border:none;
 	font-size:18px;
-	border:1px solid white;
+	transition:.4s linear;
 }
 
 .btn:hover{
-	background:white !important;
+	background:tomato !important;
 	color:black;
 	padding:10px 20px;
-	border:1px solid dodgerblue;
 }
